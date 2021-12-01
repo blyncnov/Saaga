@@ -1,0 +1,158 @@
+.body__color {
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+.navbar__con__landing {
+  width: 100%;
+  background-color: white;
+  padding: 1em;
+  color: black;
+  font-weight: 600;
+  border-bottom: 0.5px solid #dbdbdb;
+}
+
+.navcon__landing {
+  width: 100%;
+  max-width: 97%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.landing__btn {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #09a091;
+
+  background-position: left center;
+  -webkit-background-size: 200% auto;
+  background-size: 200% auto;
+  border: 0;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.logo__landing h2 {
+  font-weight: 700;
+  margin-left: 0.5em;
+}
+
+.landing__btn a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.logo__landing {
+  display: flex;
+  align-items: center;
+}
+
+.landing__container {
+  width: 100%;
+}
+
+.landing__row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: 5% auto;
+  gap: 2em;
+}
+
+.landing__column {
+  flex-basis: 50%;
+  margin-top: 1em;
+  color: rgb(31, 31, 31);
+}
+
+.landing__column h2 {
+  font-size: 3rem;
+}
+
+.landing__column h3 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.landing__image {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__landing {
+  text-align: center;
+  padding: 1em;
+  background-color: #1e4087;
+}
+
+.features__box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.features__column {
+  padding: 1em;
+  background-color: #253d48;
+}
+
+.choose__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose__box a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.choosen {
+  background-color: white;
+  padding: 2em 3em;
+  color: black;
+  border-radius: 5px;
+  border: 0.2px solid #dbdbdbbb;
+}
+
+.features__column p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 760px) {
+  .landing__row {
+    flex-direction: column;
+  }
+
+  .logo__landing h2 {
+    font-weight: 780;
+    margin-left: 0.3em;
+    font-size: 1rem;
+  }
+
+  .landing__column h2 {
+    font-size: 2rem;
+  }
+
+  .landing__column h3 {
+    font-size: 1rem;
+  }
+
+  .landing__btn a {
+    font-weight: 700;
+  }
+
+  .features__box {
+    flex-direction: column;
+  }
+}

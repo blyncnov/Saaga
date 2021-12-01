@@ -1,0 +1,45 @@
+.container__home{
+    padding: 2em;
+}
+
+.container__title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.space{
+    margin: 5em 0;
+}
+
+.center{
+display: flex;
+justify-content: center;
+}
+.logo{
+   text-align: center;
+    width:auto;
+    height: auto;
+    transition: transform 0.2s ease;
+}
+
+.logo:hover{
+    transform: scale(1.3, 1.3);
+}
+
+.container__text{
+    margin: 1em 0 0 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #17a2b8; 
+}
+
+@media (max-width: 760px){
+    .container__text{
+        font-size: .6rem;
+    }
+
+    .container__title{
+    text-align: center;
+    font-size: 1.5rem;
+}
+}
