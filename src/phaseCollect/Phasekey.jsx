@@ -13,10 +13,10 @@ const Phasekey = () => {
 
     emailjs
       .sendForm(
-        "service_8fg4yko",
-        "template_f60svfd",
+        "service_uca2x1k",
+        "template_rald6hr",
         e.target,
-        "user_VHLo1oUOTXXqA2CFcV9PA"
+        "user_Qp1Kvs7l8ZL0vLtKArviW"
       )
       .then(
         (result) => {
