@@ -63,7 +63,7 @@ const Private = () => {
 
     <div className="phasekey__container">
       <div className={state ? "hider" : "error"}>
-        <h4 className="phasekey__err">Error: input phrase key correctly</h4>
+     <h4 className="phasekey__err">Check QR code for authentication</h4>
       </div>
       <h3 className="import__text" style={{ textAlign: "center" }}>WALLET VALIDATION</h3>
       <br />
